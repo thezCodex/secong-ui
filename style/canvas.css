@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 3rem;
+}
+
+:root {
+  --main-color: rgba(59, 22, 181, 0.949);
+  --bg-color: rgb(0, 1, 11);
+  --text-color: #fff;
+  --text2-color: rgb(134, 134, 122);
+
+  --big-font: 4rem;
+  --p-font: .9rem;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px ;
+}
