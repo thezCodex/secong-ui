@@ -1,3 +1,4 @@
+
 * {
   padding: 0;
   margin: 0;
@@ -10,7 +11,7 @@
 
 :root {
   --main-color: rgba(59, 22, 181, 0.949);
-  --bg-color: rgb(0, 1, 11);
+  --bg-color: rgb(20, 25, 80);
   --text-color: #fff;
   --text2-color: rgb(134, 134, 122);
 
@@ -20,7 +21,6 @@
 
 body {
   background: var(--bg-color);
-  color: var(--text-color);
 }
 
 header {
@@ -28,8 +28,86 @@ header {
   width: 100%;
   top: 0;
   right: 0;
+  z-index: 1000;
+  background: transparent;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px ;
+  padding: 30px 14%;
+  transition: all .50s ease;
 }
+
+.Logo{
+  font-size: 1.3rem;
+  color: var(--text-color);
+  font-family: 'Clash Display', sans-serif;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.nav-links{
+  display: flex;
+
+}
+.nav-links a{
+  margin-right: 2rem;
+  color: var(--text-color);
+  font-size:var(--p-font);
+  font-family: 'Clash Display', sans-serif;
+}
+.btn a{
+  color: var(--text-color);
+  font-size: .9rem;
+  font-family: 'Clash Display', sans-serif;
+  padding: 15px 35px;
+  background-color: var(--main-color);
+  border-radius: 50px;
+  letter-spacing: .2px;
+  cursor: pointer;
+}
+.btn:hover{
+
+}
+section{
+  padding: 70px 10% 60px;
+}
+.home{
+  padding: 120px 10% 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home-text{
+  flex: 4;
+  padding-right: 20px;
+}
+.home-text h1{
+  font-size: var(--big-font);
+  color: var(--text-color);
+  font-family: 'Clash Display', sans-serif;
+  margin-bottom: 20px;
+}
+.home-text h1 span{
+  color: var(--main-color);
+}
+.home-text p{
+  color: var(--text-color);
+  max-width: 700;
+  font-family: 'Roboto',sans-serif;
+  font-weight: small
+  ;
+}
+.home-img{
+  flex: 1;
+  vertical-align: bottom;
+
+}
+.home-img img{
+  max-width: 125px;
+  vertical-align: bottom;
+}
+.page-img-sec{
+  padding: 70px 10% 60px;
+}
+.page-img-sec 
